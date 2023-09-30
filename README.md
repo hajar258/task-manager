@@ -1,12 +1,12 @@
 This is a simple API that is used to manage tasks. 
 
-To install the projct, run:
+To install the project, run the following:
     clone the project repository: git clone https://github.com/hajar258/task-manager-api.git
 
-create .env file  with the MONGO_URL to see an exmple you can follow .env.exmple file. 
+create .env file  with the MONGO_URL -- to see an example you can follow .env.exmple file. 
 
 
-To insatll all the npm packages, run:
+To install all the npm packages, run the following:
     npm install 
 
 
