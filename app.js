@@ -2,15 +2,15 @@
 
 const express = require('express')
 const app = express()
-const tasks = require('../routes/tasks')
+const tasks = require('./routes/tasks')
 
-const connectDB = require('../db/connect')
+const connectDB = require('./db/connect')
 // to access varuables in .env file
 require('dotenv').config()
 // 404 handle notfound response
-const notFound = require('../middleware/notFound')
+const notFound = require('./middleware/notFound')
 // middleware error handler 
-const errorHandlerMiddleware = require('../middleware/error-handler')
+const errorHandlerMiddleware = require('./middleware/error-handler')
 
 
 // create middleware 
